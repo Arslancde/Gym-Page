@@ -1,4 +1,4 @@
-<!-- # 💪 GYM - Fitness Website
+<!-- <!-- # 💪 GYM - Fitness Website
 
 A modern, responsive fitness website built with React.js.
 
@@ -324,4 +324,160 @@ For best results, use these sizes:
 
 Your live website: **https://arslan-gym.vercel.app**
 
-Take screenshots from your live website and add them to the Screenshots folder, then push to GitHub! 📸
+Take screenshots from your live website and add them to the Screenshots folder, then push to GitHub! 📸 -->
+
+Perfect! Now I see the actual screenshot names. Let me update the README with the correct filenames.
+
+## Updated README.md with Correct Screenshot Names
+
+Copy and paste this entire content into your `README.md`:
+
+```markdown
+# 💪 GYM - Fitness Website
+
+A modern, responsive fitness website built with React.js.
+
+## 🏋️ Features
+
+- Full-screen sections with scroll animations
+- Professional hero section with background zoom effect
+- Responsive design for all devices
+- Green theme with modern UI
+- Blog and Shop sections
+- Contact form with social links
+- Interactive navbar with mobile menu
+
+## 🛠️ Technologies Used
+
+- React.js
+- CSS3
+- Parcel Bundler
+- React Hooks
+
+## 📸 Screenshots
+
+### Hero Section
+![Hero Section](./Screenshots/hero-section.png)
+
+### About Section
+![About Section](./Screenshots/About%20US.png)
+
+### Blog Section
+![Blog Section](./Screenshots/Our%20Blog.png)
+
+### Shop Section
+![Shop Section](./Screenshots/Our%20Shop.png)
+
+### Contact Section
+![Contact Section](./Screenshots/Contact%20Us.png)
+
+### Footer
+![Footer](./Screenshots/footer.png)
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Arslancde/Gym-Page.git
+
+# Go to project folder
+cd Gym-Page
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+```
+
+## 📁 Project Structure
+
+```
+gym-website/
+├── Screenshots/              # Screenshots of the website
+│   ├── hero-section.png
+│   ├── About US.png
+│   ├── Our Blog.png
+│   ├── Our Shop.png
+│   ├── Contact Us.png
+│   └── footer.png
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   │       ├── logo.jpg
+│   │       ├── trainer.jpg
+│   │       ├── training-session.jpg
+│   │       ├── nutrition.jpg
+│   │       ├── crossfit.jpg
+│   │       ├── gym-bag.jpg
+│   │       ├── gloves.jpg
+│   │       ├── bands.jpg
+│   │       └── shaker.jpg
+│   ├── components/
+│   │   ├── App.js
+│   │   ├── Navbar.js
+│   │   ├── HeroSection.js
+│   │   ├── AboutSection.js
+│   │   ├── BlogSection.js
+│   │   ├── ShopSection.js
+│   │   ├── ContactSection.js
+│   │   └── Footer.js
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## 🚀 Live Demo
+
+[View Live Demo](https://arslan-gym.vercel.app)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is open source.
+
+## 👤 Author
+
+**Muhammad Arslan**
+
+- GitHub: [@Arslancde](https://github.com/Arslancde)
+- Email: thearslanbiz@gmail.com
+
+---
+
+⭐️ If you like this project, please give it a star!
+```
+
+## Important: The Screenshot Paths
+
+| Screenshot Name | Path in README |
+|-----------------|----------------|
+| hero-section.png | `./Screenshots/hero-section.png` |
+| About US.png | `./Screenshots/About%20US.png` |
+| Our Blog.png | `./Screenshots/Our%20Blog.png` |
+| Our Shop.png | `./Screenshots/Our%20Shop.png` |
+| Contact Us.png | `./Screenshots/Contact%20Us.png` |
+| footer.png | `./Screenshots/footer.png` |
+
+**Note**: The `%20` in the URL represents a space. GitHub automatically handles this.
+
+## Push the Updated README
+
+```bash
+# Add the updated README
+git add README.md
+
+# Commit
+git commit -m "Update README with correct screenshot filenames"
+
+# Push
+git push
